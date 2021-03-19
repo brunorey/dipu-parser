@@ -4,7 +4,7 @@
 
 Un parser muy sencillo hecho para correr sobre la página de la Honorable Cámara de Diputados Nacionales (HCDN): https://www.hcdn.gob.ar/diputados/listadip.html
 
-Necesitaba obtener la lista de proyectos presentado por cada diputado, esto no estaba disponible en la [interfaz de datos abiertos de HCDN](https://datos.hcdn.gob.ar/dataset). Para esto creé un script (muy rudimentario) en bash que obtiene la lista de diputados, por cada uno navega las páginas de proyectos presentados resolviendo la paginación y junta toda la información en una tabla simple de HTML.
+Para un proyecto de incidencia política de una ONG se necesitaba obtener la lista de proyectos presentado por cada diputado con el fin de saber cuáles podían estar interesados en el tema a tratar. Esta información no estaba disponible en la [interfaz de datos abiertos de HCDN](https://datos.hcdn.gob.ar/dataset). Para obtenerla creé un script (muy rudimentario) en bash que obtiene la lista de diputados, por cada uno navega las páginas de proyectos presentados y junta toda la información en una tabla simple de HTML.
 
 Esta información puede ser copiada para luego ser pegada en una hoja de cálculo (google sheets, excel, etc).
 
